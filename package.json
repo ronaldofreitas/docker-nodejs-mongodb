@@ -1,0 +1,31 @@
+{
+  "name": "docker-nodejs-mongodb",
+  "version": "0.0.5",
+  "description": "Aplicação com NodeJs (com PM2) e MongoDb rodando em containers Docker através do docker-composer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronaldofreitas/docker-nodejs-mongodb.git"
+  },
+  "keywords": [],
+  "author": "Ronaldo Freitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronaldofreitas/docker-nodejs-mongodb/issues"
+  },
+  "homepage": "https://github.com/ronaldofreitas/docker-nodejs-mongodb#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.0",
+    "pm2": "^4.4.0",
+    "restify": "^8.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
