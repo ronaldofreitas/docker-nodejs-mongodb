@@ -9,12 +9,9 @@ Os comandos do docker-composer estarão separados no Makefile, facilitando a exe
 
 Após clonar esse repositório, dentro da própria pasta execute: 
 
-* levantar os containers (aplicação e banco)
-$ make up 
+* levantar os containers (aplicação e banco): $ make up 
 
-* derrubar os containers
-$ make down
+* derrubar os containers: $ make down
 
-* analisar logs
-$ make logs
+* analisar logs: $ make logs
 
